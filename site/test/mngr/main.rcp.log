@@ -1,0 +1,1752 @@
+g++ -g -ggdb -pedantic -fpermissive -W -Wall -Wmain -Wcomment -Wconversion -Wunused-parameter -Wparentheses -pthread -fopenmp -fPIC -std=c++14 -I. -I/usr/include/noware/sqlite.rdbms.cxx -I/usr/include/noware/db.noware.cxx -I/usr/include/noware/noware.cxx -I/usr/include/noware/mach.noware.cxx -I/usr/include/noware/nr.cln.cxx -I/usr/include/noware/zmq.cxx -I/usr/include/noware/zyre.cxx -L. -ldl -lboost_serialization -lboost_system -lboost_thread -lboost_random -lcln -lzyre -lczmq -lzmq -lsqlite3 -o main.obj -c main.cxx;
+In file included from /usr/include/noware/noware.cxx/noware/misc/serial.hxx:24:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:48,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/../serial.hxx:70:56: warning: "/*" within comment [-Wcomment]
+     virtual bool const deserialize (std::string const &/* serial* /);
+                                                         
+/usr/include/noware/noware.cxx/noware/misc/../serial.hxx:77:52: warning: "/*" within comment [-Wcomment]
+     void serialize (archive &, unsigned int const &/* version* /);
+                                                     
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/.hxx:41:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:505,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/special.hxx:13:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+In file included from /usr/include/noware/noware.cxx/noware/misc/serial.cxx:5:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:5,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/../serial.cxx:133:64: warning: "/*" within comment [-Wcomment]
+ void noware::serial::serialize (archive &, unsigned int const &/* version* /)
+                                                                 
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:24:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/constr.cxx:74:3: warning: "/*" within comment [-Wcomment]
+  //*this = noware::tool::string (char (other));
+    
+/usr/include/noware/nr.cln.cxx/cln/.nr/constr.cxx:80:3: warning: "/*" within comment [-Wcomment]
+  //*this = noware::tool::string (char (other));
+    
+In file included from /usr/include/noware/noware.cxx/noware/misc/serial.hxx:24:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:48,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/../serial.hxx:45:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   bool const serialize (std::string &/* serial*/, type const &/* object*/);
+        ^~~~~
+/usr/include/noware/noware.cxx/noware/misc/../serial.hxx:48:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   bool const deserialize (type &/* object*/, std::string const &/* serial*/);
+        ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:48:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/serial.hxx:34:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const deserialize (std::string const &);
+                  ^~~~~
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.hxx:2:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.hxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:505,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:1:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (nr const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:3:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (std::string const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:4:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (char const * const) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:7:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (char const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:11:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (complex const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:12:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (real const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:13:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (rational const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:14:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (integer const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:15:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:16:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (short_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:17:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (single_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:18:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (double_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:19:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (long_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:21:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (long double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:22:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:23:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (unsigned long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (unsigned long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:27:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (unsigned int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:28:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (unsigned short int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:30:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (signed long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:31:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (signed long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:32:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (signed int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.hxx:33:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator == (signed short int const &) const;
+              ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.hxx:8:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.hxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:505,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:2:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (std::string const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:3:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (char const * const) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:6:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (char const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:9:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (complex const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:10:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (real const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:11:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (rational const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:12:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (integer const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:13:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:14:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (short_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:15:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (single_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:16:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (double_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:17:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (long_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:18:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (long double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:19:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:20:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:21:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (signed long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:22:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (unsigned long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:23:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (signed long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:24:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (unsigned long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (signed int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (unsigned int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:27:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (signed short int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.hxx:28:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator > (unsigned short int const &) const;
+              ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.hxx:14:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.hxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:505,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:1:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (nr const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:2:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (std::string const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:3:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (char const * const) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:5:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (char const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:8:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (complex const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:9:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (real const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:10:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (rational const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:11:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (integer const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:12:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:13:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (short_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:14:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (single_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:15:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (double_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:16:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (long_float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:17:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (long double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:18:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (double const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:19:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (float const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:20:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (signed long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:21:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (unsigned long long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:22:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (signed long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:23:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (unsigned long int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:24:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (signed int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (unsigned int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (signed short int const &) const;
+              ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.hxx:27:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ virtual bool const operator < (unsigned short int const &) const;
+              ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/.hxx:41:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.hxx:505,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:25,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/special.hxx:1:13: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ static bool const is (std::string const &);
+             ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:54:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool connect (const std::string &);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:55:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool disconnect (void);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:57:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool connected (void) const;
+              ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:60:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool query (std::map <std::string/* row*/, std::map <std::string/* column*/, std::string/* cell*/>> &/* result*/, const std::string &/* query*/, const std::map <int, std::string> &/* arguments*/, const unsigned int &/* tries_max*/ = tries_dft);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:62:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool query (std::map <std::string, std::map <std::string, std::string>> &/* result*/, const std::string &/* query*/, const unsigned int &/* tries_max*/ = tries_dft);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:64:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool query (const std::string &/* query*/, const std::map <int, std::string> &/* arguments*/, const unsigned int &/* tries_max*/ = tries_dft);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:66:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual const bool query (const std::string &/* query*/, const unsigned int &/* tries_max*/ = tries_dft);
+              ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:69:27: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual unsigned int const effect (void) const; // Affected rows
+                           ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:76:19: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual bool const operator == (const sqlite &) const;
+                   ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:77:22: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+      virtual sqlite3 const * const operator * (void) const;
+                      ^~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.hxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:20,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.hxx:34:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const frame &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.hxx:35:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const zframe_t *) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.hxx:36:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const message_t &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.hxx:37:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const zmq_msg_t *) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.hxx:38:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const std::string &) const;
+            ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.hxx:5:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:49:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const msg &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:50:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const zmsg_t *) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:51:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const frame &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:52:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const zframe_t *) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:53:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const message_t &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:54:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const zmq_msg_t *) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:55:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool operator == (const std::string &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:57:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool is_empty () const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:58:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool is_full () const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:60:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool first (frame &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:61:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool last (frame &) const;
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:66:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool first_rm (void);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:67:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool last_rm (void);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:69:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool first_rm (frame &);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:70:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool last_rm (frame &);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:72:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool append (const frame &);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:73:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool prepend (const frame &);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:85:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool fin (void);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:86:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool init (void);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:88:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool first_space_clear (void);
+            ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.hxx:89:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+    virtual const bool first_space_fill (void);
+            ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.hxx:7:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.hxx:31:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool fin (void);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:32:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool inited (void) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:33:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool init (void);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:35:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool stop (void);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:38:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool running (void) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:39:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool start (void);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:41:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool leave (const std::string &);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:42:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool joined (const std::string &) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:43:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool join (const std::string &);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:62:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool loccast (const zmq::msg &/* multipart message*/) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:65:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool unicast (const zmq::msg &/* multipart message*/, const std::string &/* peer id*/) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:75:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool anycast (const zmq::msg &/* multipart message*/, std::string &/* transmitted-to peer_id*/) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:78:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool anycast (const zmq::msg &/* multipart message*/, std::string &/* transmitted-to peer_id*/, const std::string &/* group*/) const;
+           ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.hxx:7:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.hxx:81:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool multicast (const zmq::msg &/* multipart message*/, const std::string &/* group*/) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:85:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool broadcast (const zmq::msg &/* multipart message*/) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:91:24: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual unsigned int const peer_size (void) const;
+                        ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:92:24: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual unsigned int const peer_size (const std::string &/* group*/) const;
+                        ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:96:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool rx_unset (void);
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:97:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool rx_is_set (void) const;
+           ^~~~~
+/usr/include/noware/zyre.cxx/zyre.hxx:98:11: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   virtual const bool rx_set
+           ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.hxx:25:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const fin (void);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:26:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const inited (void) const;
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:27:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const init (void);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:29:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const stop (void);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:30:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const running (void) const;
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:31:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const start (void);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:34:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const disable (void);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:35:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const enabled (void) const;
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:36:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const enable (void);
+                  ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.hxx:83:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const unicast_local (zmq::msg const &/* message*/, std::string const &/* request_token*/) const;
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:105:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ respond (zmq::msg &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, net::cast const &/* src_cast*/);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:106:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ respond_post (zmq::msg const &/* response (read-only)*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, net::cast const &/* src_cast*/, bool const &/* result*/);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:112:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ infrastruct (zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/);
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:114:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ search (zmq::msg &/* result*/, zmq::msg const &/* message/expression*/, cln::nr const &/* total, expected resonses count*/, cln::nr const &/* current count of peers who responded (so far)*/, std::string const &/* src*/, net::cast const &/* src_cast*/);// const
+                  ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.hxx:115:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ search_local (zmq::msg &/* result*/, zmq::msg const &/* message/expression*/, std::string const &/* src*/, net::cast const &/* src_cast*/);// const
+                  ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:19:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     bool const start (void);
+          ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:26:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ respond (zmq::msg &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/);
+                  ^~~~~
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:29:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ search (zmq::msg &/* result*/, zmq::msg const &/* message/expression*/, cln::nr const &/* total, expected resonses count*/, cln::nr const &/* current count of peers who responded (so far)*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/);// const
+                  ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.hxx:20:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     bool const start (void);
+          ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:1:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.hxx:24:18: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     virtual bool const/* success*/ respond (zmq::msg &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/);
+                  ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/misc/serial.cxx:5:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:5,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/../serial.cxx:46:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::serialize (std::string & serial, type const & object)
+      ^~~~~
+/usr/include/noware/noware.cxx/noware/misc/../serial.cxx:76:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::deserialize (type & object, std::string const & serial)
+      ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:5:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/misc/serial.cxx:19:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::serial::deserialize (std::string const & serial)
+      ^~~~~
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.cxx:1:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:3:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (nr const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:13:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (std::string const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:19:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (char const * const other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:42:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (char const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:58:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (complex const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:64:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (real const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:69:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (rational const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:74:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (integer const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:79:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:84:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (short_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:89:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (single_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:94:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (double_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:99:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (long_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:104:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (long double const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:109:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (double const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:114:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:119:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (signed long long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:124:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (unsigned long long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:129:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (signed long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:134:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (unsigned long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:139:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (signed int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:144:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (unsigned int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:149:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (signed short int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/equality/member.cxx:154:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator == (unsigned short int const & other) const
+      ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.cxx:7:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:15:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (std::string const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:21:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (char const * const other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:38:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (char const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:53:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (complex const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:58:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (real const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:63:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (rational const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:68:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (integer const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:73:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:78:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (short_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:83:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (single_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:88:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (double_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:93:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (long_float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:98:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (long double const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:103:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (double const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:108:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (float const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:113:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (signed long long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:118:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (unsigned long long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:123:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (signed long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:128:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (unsigned long int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:133:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (signed int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:138:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (unsigned int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:143:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (signed short int const & other) const
+      ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/greatness/member.cxx:148:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::operator > (unsigned short int const & other) const
+      ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/compar.cxx:13:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:30,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:3:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const nr & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:15:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const std::string & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:20:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (char const * const other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:30:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const char & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:45:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const complex & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:50:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const real & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:55:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const rational & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:60:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const integer & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:65:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const _float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:70:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const short_float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:75:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const single_float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:80:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const double_float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:85:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const long_float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:90:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const long double & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:95:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const double & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:100:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const float & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:105:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const signed long long int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:110:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const unsigned long long int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:115:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const signed long int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:120:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const unsigned long int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:125:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const signed int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:130:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const unsigned int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:135:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const signed short int & other) const
+ ^~~~~
+/usr/include/noware/nr.cln.cxx/cln/.nr/.compar/less/member.cxx:140:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool cln::nr::operator < (const unsigned short int & other) const
+ ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/modulo.cxx:4:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:39,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.modulo/self/member.cxx: In member function ‘virtual const cln::nr cln::nr::operator%=(const cln::nr&)’:
+/usr/include/noware/nr.cln.cxx/cln/.nr/.modulo/self/member.cxx:3:48: warning: unused parameter ‘other’ [-Wunused-parameter]
+ cln::nr const cln::nr::operator %= (nr const & other)
+                                                ^~~~~
+In file included from /usr/include/noware/nr.cln.cxx/cln/.nr/.cxx:41:0,
+                 from /usr/include/noware/nr.cln.cxx/cln/nr.cxx:35,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:15,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/nr.cln.cxx/cln/.nr/special.cxx: At global scope:
+/usr/include/noware/nr.cln.cxx/cln/.nr/special.cxx:1:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const cln::nr::is (std::string const & str)
+      ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:44:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::connect (const std::string & name)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:62:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::disconnect (void)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:80:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::connected (void) const
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:90:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::operator == (const noware::db::sqlite & other) const
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:95:9: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ sqlite3 const * const noware::db::sqlite::operator * (void) const
+         ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:101:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::query (std::map <std::string, std::map <std::string, std::string>> & result, const std::string & qry, const std::map <int, std::string> & arguments, const unsigned int & tries_max)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx: In member function ‘virtual const bool noware::db::sqlite::query(std::map<std::__cxx11::basic_string<char>, std::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> > >&, const string&, const std::map<int, std::__cxx11::basic_string<char> >&, const unsigned int&)’:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:154:53: warning: conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  if (sqlite3_prepare_v2 (db, qry.c_str (), qry.size (), &statement, &query_remainder) != SQLITE_OK)
+                                            ~~~~~~~~~^~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:196:100: warning: conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+       sqlite3_bind_text (statement, argument.first, argument.second.c_str (), argument.second.size (), SQLITE_TRANSIENT);
+                                                                               ~~~~~~~~~~~~~~~~~~~~~^~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:229:126: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (result_code == SQLITE_ROW || (result_code == SQLITE_BUSY && tries_max <= 0) || (result_code == SQLITE_BUSY && tries < tries_max))
+                                                                                                                        ~~~~~~^~~~~~~~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx: At global scope:
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:265:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::query (std::map <std::string, std::map <std::string, std::string>> & result, const std::string & qry, const unsigned int & tries_max)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:273:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::query (const std::string & qry, const std::map <int, std::string> & arguments, const unsigned int & tries_max)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:281:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::db::sqlite::query (const std::string & qry, const unsigned int & tries_max)
+ ^~~~~
+/usr/include/noware/db.noware.cxx/noware/db/sqlite.cxx:299:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ unsigned int const noware::db::sqlite::effect (void) const
+              ^~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: In member function ‘virtual zmq::msg::frame::operator const zmq_msg_t*() const’:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:66:36: warning: invalid conversion from ‘const void*’ to ‘void*’ [-fpermissive]
+  zmq_msg_init_data (msg, data.data (), data.size (), zmq::msg::frame::free, nullptr);
+                          ~~~~~~~~~~^~
+In file included from /usr/include/zmq.hpp:42:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zmq.h:263:16: note:   initializing argument 2 of ‘int zmq_msg_init_data(zmq_msg_t*, void*, size_t, void (*)(void*, void*), void*)’
+ ZMQ_EXPORT int zmq_msg_init_data (zmq_msg_t *msg, void *data,
+                ^~~~~~~~~~~~~~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: In member function ‘virtual const zframe_t* zmq::msg::frame::operator=(const zframe_t*)’:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:91:34: warning: invalid conversion from ‘const zframe_t* {aka const _zframe_t*}’ to ‘zframe_t* {aka _zframe_t*}’ [-fpermissive]
+  data.rebuild (zframe_data (other), zframe_size (other));
+                                  ^
+In file included from /usr/local/include/czmq_library.h:152:0,
+                 from /usr/local/include/czmq.h:37,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:6,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zframe.h:67:5: note:   initializing argument 1 of ‘byte* zframe_data(zframe_t*)’
+     zframe_data (zframe_t *self);
+     ^~~~~~~~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:91:55: warning: invalid conversion from ‘const zframe_t* {aka const _zframe_t*}’ to ‘zframe_t* {aka _zframe_t*}’ [-fpermissive]
+  data.rebuild (zframe_data (other), zframe_size (other));
+                                                       ^
+In file included from /usr/local/include/czmq_library.h:152:0,
+                 from /usr/local/include/czmq.h:37,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:6,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zframe.h:63:5: note:   initializing argument 1 of ‘size_t zframe_size(zframe_t*)’
+     zframe_size (zframe_t *self);
+     ^~~~~~~~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: In member function ‘virtual const zmq_msg_t* zmq::msg::frame::operator=(const zmq_msg_t*)’:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:106:35: warning: invalid conversion from ‘const zmq_msg_t*’ to ‘zmq_msg_t*’ [-fpermissive]
+  data.rebuild (zmq_msg_data (other), zmq_msg_size (other));
+                                   ^
+In file included from /usr/include/zmq.hpp:42:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zmq.h:270:18: note:   initializing argument 1 of ‘void* zmq_msg_data(zmq_msg_t*)’
+ ZMQ_EXPORT void *zmq_msg_data (zmq_msg_t *msg);
+                  ^~~~~~~~~~~~
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:121:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::frame::operator == (const frame & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:126:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::frame::operator == (const zframe_t * other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:131:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::frame::operator == (const zmq::message_t & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:136:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::frame::operator == (const zmq_msg_t * other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:141:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::frame::operator == (const std::string & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: In static member function ‘static void zmq::msg::frame::free(void*, void*)’:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:146:49: warning: unused parameter ‘hint’ [-Wunused-parameter]
+ void zmq::msg::frame::free (void * data, void * hint)
+                                                 ^~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:74:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::fin (void)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::fin()’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:76:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:78:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::init (void)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::init()’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:80:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const zmsg_t*() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:95:53: warning: invalid conversion from ‘const zframe_t* {aka const _zframe_t*}’ to ‘zframe_t* {aka _zframe_t*}’ [-fpermissive]
+   frame_p = _frame.second.operator const zframe_t * ();
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const zmq::msg::frame&() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:109:16: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  return data [0];
+                ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const zframe_t*() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:114:16: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  return data [0];
+                ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const zmq::message_t&() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:120:16: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  return data [0];
+                ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const zmq_msg_t*() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:131:16: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  return data [0];
+                ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual zmq::msg::operator const string() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:136:16: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  return data [0];
+                ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const zmsg_t* zmq::msg::operator=(const zmsg_t*)’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:152:25: warning: invalid conversion from ‘const zmsg_t* {aka const _zmsg_t*}’ to ‘zmsg_t* {aka _zmsg_t*}’ [-fpermissive]
+  frm = zmsg_first (other);
+                         ^
+In file included from /usr/local/include/czmq_library.h:159:0,
+                 from /usr/local/include/czmq.h:37,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:6,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zmsg.h:158:5: note:   initializing argument 1 of ‘zframe_t* zmsg_first(zmsg_t*)’
+     zmsg_first (zmsg_t *self);
+     ^~~~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:161:25: warning: invalid conversion from ‘const zmsg_t* {aka const _zmsg_t*}’ to ‘zmsg_t* {aka _zmsg_t*}’ [-fpermissive]
+   frm = zmsg_next (other);
+                         ^
+In file included from /usr/local/include/czmq_library.h:159:0,
+                 from /usr/local/include/czmq.h:37,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.hxx:6,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:5,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zmsg.h:163:5: note:   initializing argument 1 of ‘zframe_t* zmsg_next(zmsg_t*)’
+     zmsg_next (zmsg_t *self);
+     ^~~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:212:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const msg & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:217:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const zmsg_t * other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:222:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const frame & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:227:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const zframe_t * other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:232:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const message_t & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:237:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const zmq_msg_t * other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:242:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::operator == (const std::string & other) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:247:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::is_empty () const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:252:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::is_full () const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:257:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::first (frame & f) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::first(zmq::msg::frame&) const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:262:13: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  f = data [0];
+             ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:267:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::last (frame & f) const
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::last(zmq::msg::frame&) const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:272:28: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  f = data [data.size () - 1];
+                            ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:272:25: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  f = data [data.size () - 1];
+            ~~~~~~~~~~~~~^~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const zmq::msg::frame zmq::msg::first() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:282:14: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+   f = data [0];
+              ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const zmq::msg::frame zmq::msg::last() const’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:292:29: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+   f = data [data.size () - 1];
+                             ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:292:26: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+   f = data [data.size () - 1];
+             ~~~~~~~~~~~~~^~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:297:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::first_rm (void)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:312:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::last_rm (void)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::last_rm()’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:317:24: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  data.erase (data.size ());
+              ~~~~~~~~~~^~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:322:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::first_rm (frame & f)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:336:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::last_rm (frame & f)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::last_rm(zmq::msg::frame&)’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:341:25: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  f = data [data.size () - 1];
+            ~~~~~~~~~~~~~^~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:342:27: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  data.erase (data.size () - 1);
+              ~~~~~~~~~~~~~^~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:347:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::append (const frame & f)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: In member function ‘virtual const bool zmq::msg::append(const zmq::msg::frame&)’:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:352:18: warning: conversion to ‘std::map<unsigned int, zmq::msg::frame>::key_type {aka unsigned int}’ from ‘std::map<unsigned int, zmq::msg::frame>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  data [data.size ()] = f;
+        ~~~~~~~~~~^~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx: At global scope:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:357:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::prepend (const frame & f)
+ ^~~~~
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:376:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::first_space_clear (void)
+ ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:445:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zmq::msg::first_space_fill (void)
+ ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘void zyre::s_signal_handler(int)’:
+/usr/include/noware/zyre.cxx/zyre.cxx:42:13: warning: conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+  rc = write (s_fd, "S_STOP", sizeof ("S_STOP"));
+       ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘void zyre::s_catch_signal(int)’:
+/usr/include/noware/zyre.cxx/zyre.cxx:57:55: warning: ISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘&zyre::s_signal_handler’ [-fpermissive]
+  action.sa_handler = (void *) &(zyre::s_signal_handler);
+                                                       ^
+/usr/include/noware/zyre.cxx/zyre.cxx:57:55: warning: converting from ‘void (zyre::*)(int)’ to ‘void*’ [-Wpedantic]
+/usr/include/noware/zyre.cxx/zyre.cxx:57:22: warning: invalid conversion from ‘void*’ to ‘__sighandler_t {aka void (*)(int)}’ [-fpermissive]
+  action.sa_handler = (void *) &(zyre::s_signal_handler);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:67:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::init (void)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:85:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::inited (void) const
+ ^~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx:94:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::fin (void)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:202:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::running (void) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:213:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::stop (void)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:232:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::start (void)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:258:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::leave (const std::string & group)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:269:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::joined (const std::string & grp) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:287:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::join (const std::string & grp)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const std::map<const unsigned int, const std::__cxx11::basic_string<char> > zyre::grp_own() const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:313:51: warning: passing ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::mapped_type {aka const std::__cxx11::basic_string<char>}’ as ‘this’ argument discards qualifiers [-fpermissive]
+   groups [ndx] = static_cast <const char *> (group);
+                                                   ^
+In file included from /usr/include/c++/7.2.1/string:52:0,
+                 from main.cxx:2:
+/usr/include/c++/7.2.1/bits/basic_string.h:693:7: note:   in call to ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const std::map<const unsigned int, const std::__cxx11::basic_string<char> > zyre::grp_peer() const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:339:51: warning: passing ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::mapped_type {aka const std::__cxx11::basic_string<char>}’ as ‘this’ argument discards qualifiers [-fpermissive]
+   groups [ndx] = static_cast <const char *> (group);
+                                                   ^
+In file included from /usr/include/c++/7.2.1/string:52:0,
+                 from main.cxx:2:
+/usr/include/c++/7.2.1/bits/basic_string.h:693:7: note:   in call to ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const std::map<const unsigned int, const std::__cxx11::basic_string<char> > zyre::peer() const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:366:49: warning: passing ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::mapped_type {aka const std::__cxx11::basic_string<char>}’ as ‘this’ argument discards qualifiers [-fpermissive]
+   peers [ndx] = static_cast <const char *> (peer);
+                                                 ^
+In file included from /usr/include/c++/7.2.1/string:52:0,
+                 from main.cxx:2:
+/usr/include/c++/7.2.1/bits/basic_string.h:693:7: note:   in call to ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const std::map<const unsigned int, const std::__cxx11::basic_string<char> > zyre::peer(const string&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:394:49: warning: passing ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::mapped_type {aka const std::__cxx11::basic_string<char>}’ as ‘this’ argument discards qualifiers [-fpermissive]
+   peers [ndx] = static_cast <const char *> (peer);
+                                                 ^
+In file included from /usr/include/c++/7.2.1/string:52:0,
+                 from main.cxx:2:
+/usr/include/c++/7.2.1/bits/basic_string.h:693:7: note:   in call to ‘std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’
+       operator=(const _CharT* __s)
+       ^~~~~~~~
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:10:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:403:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::loccast (const zmq::msg & msg) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:408:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::unicast (const zmq::msg & msg, const std::string & peer/* peer id*/) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const bool zyre::unicast(const zmq::msg&, const string&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:430:37: warning: invalid conversion from ‘const zmsg_t* {aka const _zmsg_t*}’ to ‘zmsg_t* {aka _zmsg_t*}’ [-fpermissive]
+  zmsg = msg.operator const zmsg_t * ();
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const string zyre::any() const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:448:36: warning: conversion to ‘unsigned int’ from ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  peers_list_size = peers_list.size ();
+                    ~~~~~~~~~~~~~~~~^~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const string zyre::any(const string&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:476:36: warning: conversion to ‘unsigned int’ from ‘std::map<const unsigned int, const std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+  peers_list_size = peers_list.size ();
+                    ~~~~~~~~~~~~~~~~^~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:495:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::anycast (const zmq::msg & msg, std::string & peer_id) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:522:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::anycast (const zmq::msg & msg, std::string & peer_id, const std::string & group) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:554:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::multicast (const zmq::msg & msg, const std::string & group) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const bool zyre::multicast(const zmq::msg&, const string&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:577:37: warning: invalid conversion from ‘const zmsg_t* {aka const _zmsg_t*}’ to ‘zmsg_t* {aka _zmsg_t*}’ [-fpermissive]
+  zmsg = msg.operator const zmsg_t * ();
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:630:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::broadcast (const zmq::msg & msg) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const bool zyre::broadcast(const zmq::msg&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:630:46: warning: unused parameter ‘msg’ [-Wunused-parameter]
+ const bool zyre::broadcast (const zmq::msg & msg) const
+                                              ^~~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:645:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const unsigned int zyre::peer_size (void) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const unsigned int zyre::peer_size() const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:663:22: warning: conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+  result = zlist_size (peers);
+           ~~~~~~~~~~~^~~~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:670:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const unsigned int zyre::peer_size (const std::string & group) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual const unsigned int zyre::peer_size(const string&) const’:
+/usr/include/noware/zyre.cxx/zyre.cxx:688:22: warning: conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+  result = zlist_size (peers);
+           ~~~~~~~~~~~^~~~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: At global scope:
+/usr/include/noware/zyre.cxx/zyre.cxx:695:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::rx_is_set (void) const
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:702:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::rx_unset (void)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx:721:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool zyre::rx_set (const boost::function <void (zyre_event_t * const/* zyre_event*/)> & exomanager)
+ ^~~~~
+/usr/include/noware/zyre.cxx/zyre.cxx: In member function ‘virtual void zyre::_exorx_call(zyre_event_t*)’:
+/usr/include/noware/zyre.cxx/zyre.cxx:1059:22: warning: invalid conversion from ‘zyre_event_t* const* {aka _zyre_event_t* const*}’ to ‘zyre_event_t** {aka _zyre_event_t**}’ [-fpermissive]
+  zyre_event_destroy (&event);
+                      ^~~~~~
+In file included from /usr/local/include/zyre_library.h:73:0,
+                 from /usr/local/include/zyre.h:23,
+                 from /usr/include/noware/noware.cxx/noware/net/node.hxx:6,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/local/include/zyre_event.h:36:5: note:   initializing argument 1 of ‘void zyre_event_destroy(zyre_event_t**)’
+     zyre_event_destroy (zyre_event_t **self_p);
+     ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.cxx: At global scope:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:48:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::fin (void)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:59:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::inited (void) const
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:70:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::init (void)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:81:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::stop (void)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:98:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::running (void) const
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:115:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::start (void)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:151:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::disable (void)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:159:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::enabled (void) const
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:164:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::enable (void)
+ ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:702:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::net::node::respond (zmq::msg &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* event*/, std::string const &/* event_type*/, std::string const &/* src*/, net::cast const &/* src_cast*/)
+      ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:709:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::net::node::respond_post (zmq::msg const &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* event*/, std::string const &/* event_type*/, std::string const &/* src*/, const net::cast &/* src_cast*/, bool const & result)
+      ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx: In member function ‘virtual const bool noware::net::node::respond_post(const zmq::msg&, const zmq::msg&, const zyre_event_t*, const string&, const string&, const noware::net::cast&, const bool&)’:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:709:251: warning: unused parameter ‘result’ [-Wunused-parameter]
+ bool const noware::net::node::respond_post (zmq::msg const &/* response*/, zmq::msg const &/* rx'd*/, zyre_event_t const * const/* event*/, std::string const &/* event_type*/, std::string const &/* src*/, const net::cast &/* src_cast*/, bool const & result)
+                                                                                                                                                                                                                                                           ^~~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx: At global scope:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:718:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::infrastruct (const zyre_event_t */* event*/, const std::string &/* event_type*/)
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx: In member function ‘virtual const zmq::msg noware::net::node::rx_local(const string&, const cln::nr&, cln::nr&, const string&, const noware::net::cast&) const’:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:894:115: warning: passing ‘const noware::net::node’ as ‘this’ argument discards qualifiers [-fpermissive]
+   if (search (response, message, responses_expected/* total count*/, responses_nr/* current count*/, src, src_cast))
+                                                                                                                   ^
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.hxx:114:36: note:   in call to ‘virtual const bool noware::net::node::search(zmq::msg&, const zmq::msg&, const cln::nr&, const cln::nr&, const string&, const noware::net::cast&)’
+     virtual bool const/* success*/ search (zmq::msg &/* result*/, zmq::msg const &/* message/expression*/, cln::nr const &/* total, expected resonses count*/, cln::nr const &/* current count of peers who responded (so far)*/, std::string const &/* src*/, net::cast const &/* src_cast*/);// const
+                                    ^~~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:730:6: warning: unused variable ‘bind_return_code’ [-Wunused-variable]
+  int bind_return_code;
+      ^~~~~~~~~~~~~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx: At global scope:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:917:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const noware::net::node::unicast_local (zmq::msg const & msg, std::string const & request_token) const
+      ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx: In member function ‘virtual const bool noware::net::node::unicast_local(const zmq::msg&, const string&) const’:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:986:132: warning: passing ‘const zmq::msg’ as ‘this’ argument discards qualifiers [-fpermissive]
+  std::cerr << "noware::net::node::unicast_local()::message==" << '[' << static_cast <const char *> (msg.operator zmq::message_t & ().data ()) << ']' << std::endl;
+                                                                                                                                    ^
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:123:1: note:   in call to ‘virtual zmq::msg::operator zmq::message_t&()’
+ zmq::msg::operator message_t & (void)
+ ^~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:996:52: warning: passing ‘const zmq::msg’ as ‘this’ argument discards qualifiers [-fpermissive]
+   transmitter.send (msg.operator zmq::message_t & ()/*, ZMQ_DONTWAIT*/);
+                                                    ^
+In file included from /usr/include/noware/noware.cxx/noware/net/node.cxx:8:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/msg.cxx:123:1: note:   in call to ‘virtual zmq::msg::operator zmq::message_t&()’
+ zmq::msg::operator message_t & (void)
+ ^~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/noware.cxx/noware/net/node.cxx: At global scope:
+/usr/include/noware/noware.cxx/noware/net/node.cxx:1008:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::search (zmq::msg &/* result*/, const zmq::msg &/* message*/, const cln::nr &/* total, expected resonses count*/, const cln::nr &/* current count of peers who responded (so far)*/, const std::string &/* src*/, const net::cast &/* src_cast*/)// const
+ ^~~~~
+/usr/include/noware/noware.cxx/noware/net/node.cxx:1015:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ const bool noware::net::node::search_local (zmq::msg &/* result*/, const zmq::msg &/* message*/, const std::string &/* src*/, const net::cast &/* src_cast*/)// const
+ ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:16:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const sqlite::srv::start (void)
+      ^~~~~
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:30:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const/* success*/ sqlite::srv::respond (zmq::msg & response, zmq::msg const & req, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/)
+      ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx: In member function ‘virtual const bool sqlite::srv::respond(zmq::msg&, const zmq::msg&, const zyre_event_t*, const string&, const string&, const noware::net::cast&)’:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:46:41: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+   args [arg_ndx - 1] = req.data [arg_ndx];
+                                         ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:484:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](const key_type&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](const key_type& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:51:82: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  std::cerr << "sqlite::srv::respond()::req.data[0]=[" << std::string (req.data [0]) << "]" << std::endl;
+                                                                                  ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2:0,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:53:36: warning: passing ‘const std::map<unsigned int, zmq::msg::frame>’ as ‘this’ argument discards qualifiers [-fpermissive]
+  if (!db.query (result, req.data [0]/* the query*/, args))
+                                    ^
+In file included from /usr/include/c++/7.2.1/map:61:0,
+                 from /usr/include/noware/db.noware.cxx/noware/db/sqlite.hxx:7,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.hxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:1,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/c++/7.2.1/bits/stl_map.h:504:7: note:   in call to ‘std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = unsigned int; _Tp = zmq::msg::frame; _Compare = std::less<unsigned int>; _Alloc = std::allocator<std::pair<const unsigned int, zmq::msg::frame> >; std::map<_Key, _Tp, _Compare, _Alloc>::mapped_type = zmq::msg::frame; std::map<_Key, _Tp, _Compare, _Alloc>::key_type = unsigned int]’
+       operator[](key_type&& __k)
+       ^~~~~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1:0,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx: At global scope:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:14:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const sqlite::mngr::start (void)
+      ^~~~~
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:26:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const/* success*/ sqlite::mngr::search (zmq::msg & result/* for client*/, zmq::msg const & response/* from server*/, cln::nr const &/* total, expected resonses count*/, cln::nr const &/* current count of peers who responded (so far)*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/)// const
+      ^~~~~
+In file included from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1:0,
+                 from main.cxx:30:
+/usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:36:6: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ bool const/* success*/ sqlite::mngr::respond (zmq::msg & response/* to client*/, zmq::msg const & req/* from client*/, zyre_event_t const * const/* (zyre) event*/, std::string const &/* event_type*/, std::string const &/* src*/, noware::net::cast const &/* src_cast*/)
+      ^~~~~
+main.cxx: In function ‘int main(int, char**, char**)’:
+main.cxx:57:50: warning: unused parameter ‘envp’ [-Wunused-parameter]
+ int main (int argc, char * argv [], char * envp [])
+                                                  ^
+In file included from /usr/include/noware/zmq.cxx/zmq/.msg/.cxx:1:0,
+                 from /usr/include/noware/zmq.cxx/zmq/msg.cxx:5,
+                 from /usr/include/noware/noware.cxx/noware/net/node.cxx:8,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/srv.cxx:3,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr.cxx:2,
+                 from /usr/include/noware/sqlite.rdbms.cxx/sqlite/mngr:1,
+                 from main.cxx:30:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx: In member function ‘virtual zmq::msg::frame::operator const zmq_msg_t*() const’:
+/usr/include/noware/zmq.cxx/zmq/.msg/frame.cxx:66:20: warning: ‘msg’ is used uninitialized in this function [-Wuninitialized]
+  zmq_msg_init_data (msg, data.data (), data.size (), zmq::msg::frame::free, nullptr);
+  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -g -ggdb -pedantic -fpermissive -W -Wall -Wmain -Wcomment -Wconversion -Wunused-parameter -Wparentheses -pthread -fopenmp -fPIC -std=c++14 -I. -I/usr/include/noware/sqlite.rdbms.cxx -I/usr/include/noware/db.noware.cxx -I/usr/include/noware/noware.cxx -I/usr/include/noware/mach.noware.cxx -I/usr/include/noware/nr.cln.cxx -I/usr/include/noware/zmq.cxx -I/usr/include/noware/zyre.cxx -L. -ldl -lboost_serialization -lboost_system -lboost_thread -lboost_random -lcln -lzyre -lczmq -lzmq -lsqlite3 -o main.elf main.obj;

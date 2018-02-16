@@ -2,8 +2,8 @@ namespace noware
 {
 	namespace rdbms
 	{
-		// cluster manager
-		class mngr
+		// client interface
+		class query
 		{
 		};
 	}
